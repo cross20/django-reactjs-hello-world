@@ -9,7 +9,7 @@ Based on the "[Django & React - Full Stack Web App Tutorial](https://www.youtube
 ## Prerequisites
 
 - Python
-<!-- TODO: - npm -->
+- Node.js
 
 ## Visual Studio Code
 
@@ -31,9 +31,13 @@ Using a virutal environment is recommended.
 
 ## Install Packages
 
-The required packages are in the requirements.txt file.
+The required back end packages are in the requirements.txt file.
 
 `pip install -r requirements.txt`
+
+The required front end packages are in the package.json file.
+
+<!-- TODO: Is it necessarry to do anything to get front end packages working? -->
 
 ## Django Migrations
 
@@ -48,3 +52,9 @@ Migrate from the directory with the [manage.py](music_controller/manage.py) file
 3. Navigate to the directory with the [manage.py](music_controller/manage.py) file.
 4. Run the sever using `python manage.py runserver`.
 5. Open [localhost:8000/api](http://localhost:8000/api) in a web browser.
+
+# New Concepts
+
+- Babel
+- Webpack
+- Node.js
