@@ -35,11 +35,16 @@ The required packages are in the requirements.txt file.
 
 `pip install -r requirements.txt`
 
+## Django Migrations
+
+Migrate from the directory with the [manage.py](music_controller/manage.py) file.
+
+`python manage.py migrate`
+
 # Running the Application
 
 1. Navigate to the base directory
 2. Activate the virtual environment (explained in the Setup section).
-3. Navigate to the directory with the [manage.py](manage.py) file.
-4. Migrate: `python manage.py migrate`.
-5. Run the sever: `python manage.py runserver`.
-6. Navigate to [localhost:8000/api](http://localhost:8000/api).
+3. Navigate to the directory with the [manage.py](music_controller/manage.py) file.
+4. Run the sever using `python manage.py runserver`.
+5. Open [localhost:8000/api](http://localhost:8000/api) in a web browser.
