@@ -37,7 +37,9 @@ The required back end packages are in the requirements.txt file.
 
 The required front end packages are in the package.json file.
 
-<!-- TODO: Is it necessarry to do anything to get front end packages working? -->
+`cd .\music_controller\frontend\`
+
+`npm install`
 
 ## Django Migrations
 
@@ -51,7 +53,9 @@ Migrate from the directory with the [manage.py](music_controller/manage.py) file
 2. Activate the virtual environment (explained in the Setup section).
 3. Navigate to the directory with the [manage.py](music_controller/manage.py) file.
 4. Run the sever using `python manage.py runserver`.
-5. Open [localhost:8000/api](http://localhost:8000/api) in a web browser.
+5. Navigate to the frontend directory using `cd .\frontend\`.
+6. Run the React app using `npm run dev` (or `npm run build`).
+7. Open [localhost:8000/api](http://localhost:8000/api) in a web browser.
 
 # New Concepts
 
